@@ -1,0 +1,610 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+header h1
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Comfortaa';
+    font-size: 55px;
+}
+h2
+{
+    font-size: 55px;
+    color: aliceblue;
+    font-family: 'Comfortaa';
+}
+h4
+{
+    text-transform: uppercase;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.wrapper
+{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.purple
+{
+    color: rgb(104, 64, 250);
+}
+
+
+
+
+
+/* HEADER */
+
+header
+{
+    background: rgb(255, 255, 255);
+    height: 120px;
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li
+{
+    float: none;
+    display: inline-block;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    font-weight: bolder;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.button-3
+{
+    color: black;
+}
+.button-3:hover
+{
+    color: rgb(104, 64, 250);
+    text-decoration-line: underline;
+    text-shadow: 1px 1px 1px rgb(131, 102, 235);
+}
+
+
+
+
+
+/* HOMEPAGE */
+
+#homepage
+{
+    height: 730px;
+    background: url('images/webdeveloper-environment.png') center;
+}
+#homepage h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0 40px 0;
+    margin-bottom: 20px;
+}
+.button-1
+{
+    display: block;
+    width: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(104, 64, 250);
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.button-1:hover
+{
+    background: rgb(233, 50, 108);
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 1px black;
+}
+
+
+
+
+
+/* SERVICES */
+#services
+{
+    background: rgb(255, 255, 255);
+    height: 950px;
+}
+
+#services h1
+{
+    font-family: 'Comfortaa';
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#services ul
+{
+    margin: 20px 0;
+}
+#services ul li
+{
+    padding-top: 70px;
+    text-align: center;
+
+}
+#service-1
+{
+    background: url('images/projects-gestion.png') no-repeat top center;
+}
+#service-2
+{
+    background: url('images/editing.png') no-repeat top center;
+    margin-top: 30px;
+}
+#service-3
+{
+    background: url('images/tool.png') no-repeat top center;
+    margin-top: 30px;
+}
+#service-4
+{
+    background: url('images/refresh.png') no-repeat top center;
+    margin-top: 30px;
+}
+#service-5
+{
+    background: url('images/repeat.png') no-repeat top center;
+    margin-top: 30px;
+}
+
+
+
+/* PORTFOLIO */
+#portfolio
+{
+    height: 730px;
+    background: url('images/portfolio.jpg') center;
+}
+#portfolio h2
+{
+    font-family: 'Comfortaa';
+    text-transform: uppercase;
+    margin-top: 0;
+    padding: 75px 0 0px 0;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+#portfolio h2:hover
+{
+    color: rgb(172, 125, 73);
+}
+#portfolio h3
+{
+    font-family: 'Comfortaa';
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.button-4
+{
+    display: block;
+    width: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(28, 28, 95);
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+
+}
+.button-4:hover
+{
+    background: rgb(28, 28, 95);
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+
+
+
+
+/* PROJECTS */
+
+#projects
+{
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    padding: 60px 0;
+}
+#projects article
+{
+    width: 420px;
+    height: 367px;
+    float: left;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+#projects article:first-child
+{
+    margin-right: 40px;
+    margin-bottom: 200px;
+    border: 2px solid black;
+}
+#projects article:nth-child(2)
+{
+    margin-right: 40px;
+    margin-bottom: 200px;
+    border: 2px solid black;
+}
+
+/*
+#projects article:first-child:hover
+{
+    color: rgb(237, 139, 58);
+}
+*/
+
+.overlay
+{
+    background: rgba(255, 255, 255, 0.79);
+    height: 100%;
+    width: 140px;
+    padding: 33px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+article h4
+{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#projects p
+{
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 17px;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+}
+.button-5
+{
+    display: block;
+    width: 20px;
+    height: 15px;
+    color: rgb(19, 19, 19);
+    font-size: 13px;
+    margin: auto;
+    margin-top: -30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 15px;
+    background: gainsboro;
+}
+.button-5:hover
+{
+    color: rgb(237, 139, 58);
+}
+.button-10
+{
+    display: block;
+    width: 20px;
+    height: 15px;
+    color: rgb(19, 19, 19);
+    font-size: 13px;
+    margin: auto;
+    margin-top: -30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 15px;
+    background: gainsboro;
+}
+.button-10:hover
+{
+    color: rgb(239, 25, 25);
+}
+
+
+
+
+/* COMPETENCES */
+
+#competences
+{
+    height: 730px;
+    background: url('images/competences2.jpg') center;
+}
+#competences h2
+{
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-align: center;
+    padding: 75px 0 0px 0;
+}
+#competences h2:hover
+{
+    color: rgb(137, 192, 255);
+}
+#competences h3
+{
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.button-7
+{
+    
+    display: block;
+    width: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 27px;
+    text-transform: uppercase;
+}
+.button-7:hover
+{
+    background: rgb(39, 58, 136);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+/* COMPETENCE-LIST */
+
+#competence-list
+{
+    background: rgb(255, 255, 255);
+    height: 800px;
+    float: center;
+}
+
+#competence-list ul li
+{
+    padding-top: 70px;
+    text-align: center;
+}
+#competence-list h4
+{
+    font-size: 25px;
+}
+
+
+/* ABOUT ME */
+
+#who
+{
+    height: 730px;
+    background: url('images/About-me2.jpg') center;
+}
+#who h2
+{
+    padding-top: 18px;
+    font-family: 'Comfortaa';
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.left
+{
+    font-size: 20px;
+    float: left;
+    font-family: 'Comfortaa';
+    color: rgb(216, 216, 216);
+    font-weight: lighter;
+    padding-top: 50px;
+    text-align: center;
+}
+.left:hover
+{
+    color: rgb(255, 255, 255);
+}
+.right
+{
+    font-size: 20px;
+    float: right;
+    font-family: 'Comfortaa';
+    color: rgb(216, 216, 216);
+    font-weight: lighter;
+    padding-top: 50px;
+    text-align: center;
+}
+.right:hover
+{
+    color: rgb(255, 255, 255);
+}
+#who article:nth-child(2)
+{
+    width: 400px;
+    height: 320px;
+    float: left;
+    border-radius: 80px;
+    margin-top: 45px;
+    margin-right: 40px;
+}
+#who article:nth-child(3)
+{
+    width: 400px;
+    height: 320px;
+    float: right;
+    border-radius: 80px;
+    margin-top: 45px;
+}
+
+
+
+/* CONTACT */
+
+input[type="checkbox" i] 
+{
+    background-color: initial;
+    appearance: auto;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 317px;
+}
+
+
+#contact
+{
+    background: rgb(255, 255, 255);
+    padding: 60px 0;
+    text-align: center;
+}
+#contact h3
+{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #f980ac;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-family: 'Comfortaa';
+}
+
+form
+{
+    margin: 60px 0 20px 0;
+}
+
+label
+{
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(42, 40, 40);
+    font-family: 'Comfortaa';
+}
+
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    font-family: 'Comfortaa';
+}
+
+.button-9
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #3a2d60;
+    border-style: none;
+    border-radius: 3px;
+    font-family: 'Comfortaa';
+}
+
+.button-9:hover
+{
+    color: #fff;
+    background-color: rgb(42, 40, 40);
+}
+
+label p
+{
+    float: right;
+    margin-right: 335px;
+    font-size: 10px;
+    font-family: 'Comfortaa'
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer
+{
+    height: 260px;
+    background-color: rgb(42, 40, 40);
+}
+footer h1
+{
+    font-size: 65px;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Comfortaa';
+    font-weight: normal;
+}
+.copyright
+{
+    font-family: 'Comfortaa';
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
